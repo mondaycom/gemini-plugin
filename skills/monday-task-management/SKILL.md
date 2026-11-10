@@ -7,7 +7,7 @@ description: |
   Use when user asks to "create a task", "add an item", "update status", "assign to",
   "change due date", "move item", "mark as done", "create a subitem", "add a comment",
   or "update the priority".
-  Don't use for creating a new board (use board-setup), writing or editing monday docs (use monday-docs-collaborator), or building forms (use monday-forms-builder).
+  Don't use for creating a new board (use monday-board-setup), writing or editing monday docs (use monday-docs-collaborator), or building forms (use monday-forms-builder).
 license: MIT
 metadata:
   author: monday.com

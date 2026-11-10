@@ -3,9 +3,11 @@
   "ref": "85e3a7ec45ec07d0618f796c1609952e4edc15e7",
   "prefix": "monday-",
   "skills": [
+    "onboard-to-monday",
     "task-management",
+    "board-setup",
+    "project-status-report",
     "docs-collaborator",
-    "forms-builder",
-    "onboard-to-monday"
+    "forms-builder"
   ]
 }
