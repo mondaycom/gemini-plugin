@@ -1,6 +1,6 @@
 # monday.com for Gemini
 
-Bring monday.com into Gemini. Create, update and assign items, write docs and set up forms from a conversation.
+Bring monday.com into Gemini. Set up boards, create, update and assign items, get status reports, write docs and set up forms from a conversation.
 
 ## What you get
 
@@ -8,7 +8,9 @@ Bring monday.com into Gemini. Create, update and assign items, write docs and se
   OAuth), with tools for boards, items, columns, docs, forms, dashboards, workspaces and more.
 - **Skills**
   - `monday-onboard-to-monday`: first-run setup. Builds a board tailored to your work, with starter items and an automation.
+  - `monday-board-setup`: create a board with the right groups, columns and starter items.
   - `monday-task-management`: create, update, assign and move items, with correct column-value formats.
+  - `monday-project-status-report`: status reports across boards: overdue items, blockers, workload and recent activity.
   - `monday-docs-collaborator`: create, read, edit and comment on monday docs, including live column embeds and mentions.
   - `monday-forms-builder`: create, edit and publish monday WorkForms.
 
