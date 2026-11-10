@@ -1,6 +1,11 @@
 {
   "repo": "https://github.com/mondaycom/skills.git",
-  "ref": "706a214f26d93f5567d49f89b2f525780e9f756e",
+  "ref": "85e3a7ec45ec07d0618f796c1609952e4edc15e7",
   "prefix": "monday-",
-  "skills": ["task-management", "docs-collaborator", "forms-builder", "onboard-to-monday"]
+  "skills": [
+    "task-management",
+    "docs-collaborator",
+    "forms-builder",
+    "onboard-to-monday"
+  ]
 }
