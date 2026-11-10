@@ -1,0 +1,22 @@
+{
+  "name": "monday-work-management",
+  "displayName": "monday.com",
+  "version": "1.0.0",
+  "description": "Plan and track work in monday.com from Gemini: create, update and assign items, write docs, and build forms that turn requests into items.",
+  "author": {
+    "name": "monday.com",
+    "email": "support@monday.com",
+    "url": "https://monday.com"
+  },
+  "repository": "https://github.com/mondaycom/gemini-plugin",
+  "homepage": "https://monday.com/w/mcp",
+  "license": "MIT",
+  "keywords": ["monday", "project-management", "work-management", "tasks", "boards", "docs", "forms"],
+  "skills": [
+    "./skills/monday-task-management/SKILL.md",
+    "./skills/monday-docs-collaborator/SKILL.md",
+    "./skills/monday-forms-builder/SKILL.md",
+    "./skills/monday-onboard-to-monday/SKILL.md"
+  ],
+  "mcpServers": "./.mcp.json"
+}
