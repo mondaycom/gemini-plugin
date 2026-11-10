@@ -17,7 +17,7 @@ const warn = (where, msg) => warnings.push(`${where}: ${msg}`);
 const GOOGLE_1P = ["bigquery", "gemini", "vertex-ai", "looker", "gdrive"];
 const INSTALL = /\b(brew install|npm (i|install)\b|npx |pip3? install|curl [^\n]*\|\s*(ba|z)?sh|wget [^\n]*\|\s*(ba|z)?sh)/i;
 const INVISIBLE = /[\u200B-\u200F\u202A-\u202E\u2060-\u2064\uFEFF]/;
-const HIDDEN_DIRECTIVE = /<\/?(IMPORTANT|SYSTEM)>/;
+const HIDDEN_DIRECTIVE = /<\/?(IMPORTANT|SYSTEM)>/i;
 
 function readJson(rel) {
   try {

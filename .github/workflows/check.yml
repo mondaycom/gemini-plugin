@@ -1,0 +1,31 @@
+name: Check plugin
+
+# skills/ must be exactly what scripts/sync-skills.sh produces from the ref pinned in skills.json, and
+# the plugin must pass scripts/check-skills.js (Google's offline plugin rules). Re-running the sync
+# checks both: it runs the checker, and any hand edit to skills/ shows up as a diff.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Skills in sync and plugin rules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Re-sync skills and check the plugin
+        run: scripts/sync-skills.sh
+
+      - name: Fail if skills/ differs from the pinned ref
+        run: |
+          if [ -n "$(git status --porcelain -- skills)" ]; then
+            git status --short -- skills
+            echo "::error::skills/ does not match mondaycom/skills at the ref in skills.json. Change the skill in mondaycom/skills, bump the ref and run scripts/sync-skills.sh."
+            exit 1
+          fi
