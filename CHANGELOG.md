@@ -2,6 +2,12 @@
 
 All notable changes to this plugin are documented here. Versions follow [Semantic Versioning](https://semver.org).
 
+## 1.0.2
+
+- Skills synced from `mondaycom/skills` with live-verified tool behavior: region-safe form links,
+  partial form header updates, confirmed column formats (color_picker is not writable), and no upload or
+  invite offers when the tools are not listed.
+
 ## 1.0.1
 
 - Skills synced from `mondaycom/skills` with every tool call matched to the current monday.com MCP tool schemas

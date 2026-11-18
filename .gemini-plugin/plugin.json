@@ -1,7 +1,7 @@
 {
   "name": "monday-work-management",
   "displayName": "monday.com",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plan and track work in monday.com from Gemini: set up boards, create, update and assign items, get project status reports, write docs, and build forms that turn requests into items.",
   "author": {
     "name": "monday.com",
